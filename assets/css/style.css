@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;   
+}
+
+#container{
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 105px 0 140px 0;
+}
+
+#login, #registrar{
+    background: white;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+#login-block{
+    padding-top: 30px;
+}
+
+#login{
+    padding: 33px 40px 19px 40px;
+}
+
+#registrar{
+    padding: 25px 70px;
+    margin-bottom: 25px;
+}
+
+.logo{
+    margin-bottom: 30px;
+}
+
+input{
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+    margin-bottom: 5px;
+    width: 270px;
+    height: 30px;
+    font-size: 11px;
+    color: #838282;
+    padding-left: 8px;
+}
+
+#botao{
+    background: #B2DFFC;
+    width: 285px;
+    border-radius: 5px;
+    padding: 8px 0 8px 0;
+    font-weight: bold;
+    color: white;
+    margin-top: 12px;
+}
+
+.sep-ou{
+    color: #8e8e8e;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+sup{
+    color: #dbdbdb;
+}
+
+.sep-ou span{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.facebook{
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #00376b;
+}
+
+.facebook img{
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+.senha{
+    font-size: 12px;
+    color: #00376b;
+}
+
+#registrar{
+    margin-top: 10px;
+    
+}
+
+#registrar span{
+    color: #0095f6;
+    font-weight: bold;
+}
+
+#obtem{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#obtem p{
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+footer{
+    margin: 0 auto;
+    max-width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+ul li{
+    color: #8e8e8e;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+
+@media only screen and (max-width: 770px) {
+    #images{
+        display: none;
+    }
+
+}
